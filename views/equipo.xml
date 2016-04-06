@@ -8,9 +8,11 @@
    <div id="wrap">
        <!---->
      <div class="fondo">
-       <h1>Monte Fuji</h1>
+       <h1>Equipo directivo</h1>
 		<field name="body_html">
-    		<![CDATA[<img  src="/ThemeOdoo/static/img/fondo.jpg"/>]]>
+    		<![CDATA[<img src="/ThemeOdoo/static/img/persona1.jpg"/>]]>
+                <![CDATA[<img src="/ThemeOdoo/static/img/persona2.jpg"/>]]>
+                <![CDATA[<img src="/ThemeOdoo/static/img/persona3.jpg"/>]]>
 		</field>
        <!-- === Snippets' area === -->
        <div class="oe_structure" />
