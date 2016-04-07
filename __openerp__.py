@@ -1,14 +1,13 @@
 {
-  'name':'Tema Odoo',
-  'description': ' Odoo',
+  'name':'Tema David Pazó',
+  'description': 'Examen',
   'version':'1.0',
-  'author':'David Pazo',
+  'author':'David Pazó',
 
  'data': [
   'views/layout.xml',
-  'views/pages.xml',
-  'views/equipo.xml',
-  'views/assets.xml'
+  'views/EquipoD.xml',
+   'views/assets.xml',
 ],
   'category': 'Theme/Creative',
   'depends': ['website'],

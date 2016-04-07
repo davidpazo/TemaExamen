@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <openerp>
   <data>
       <!-- Customize header  -->
       <template id="custom_header" inherit_id="website.layout" name="Custom Header">
 
-          <!-- Asignamos id  -->
+          <!-- Assign an id  -->
           <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
               <attribute name="id">my_header</attribute>
           </xpath>
@@ -13,7 +12,7 @@
           <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
               <div class="container">
                   <div class="alert alert-info mt16" role="alert">
-                      <strong>Welcome</strong> in our website!
+                      <h1>Equipo Directivo</h1>
                   </div>
               </div>
           </xpath>

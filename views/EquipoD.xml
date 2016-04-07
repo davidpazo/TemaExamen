@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+
+<template name="equipod" id="website.equipod" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+       <h2>Gerente.</h2>
+		<field name="f1">
+    		<![CDATA[<img  src="/ThemeOdoo/static/src/img/persona1.jpg"/>]]>
+		</field>               
+       <h2>Jefa de departamento.</h2>
+		<field name="f2">
+    		<![CDATA[<img  src="/ThemeOdoo/static/src/img/persona2.jpg"/>]]>
+		</field>
+       <h2>Relaciones públicas..</h2>
+		<field name="f3">
+    		<![CDATA[<img  src="/ThemeOdoo/static/src/img/persona3.jpg"/>]]>
+		</field>
+    </div>
+   </div>
+  </t>
+</template>
+
+<record id="equipod" model="website.menu">
+  <field name="name">Quienes Somos</field>
+  <field name="url">/page/equipod</field>
+  <field name="paren t_id" ref="website.main_menu" />
+  <field name="sequence" type="int">100</field>
+</record>
+
+</data>
+</openerp>
